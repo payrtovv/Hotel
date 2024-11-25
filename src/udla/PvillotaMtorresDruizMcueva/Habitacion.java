@@ -1,4 +1,5 @@
-package udla.PvillotaMtorresDruizMcueva.hotel;
+package udla.PvillotaMtorresDruizMcueva;
+
 
 public class Habitacion {
     private int idHabitacion;

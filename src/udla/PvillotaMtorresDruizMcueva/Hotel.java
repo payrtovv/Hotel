@@ -1,4 +1,5 @@
-package udla.PvillotaMtorresDruizMcueva.hotel;
+package udla.PvillotaMtorresDruizMcueva;
+
 
 import java.util.ArrayList;
 import java.util.List;

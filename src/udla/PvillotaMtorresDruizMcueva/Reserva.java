@@ -1,4 +1,5 @@
-package udla.PvillotaMtorresDruizMcueva.hotel;
+package udla.PvillotaMtorresDruizMcueva;
+
 
 import java.util.List;
 import java.util.Random;
@@ -29,7 +30,7 @@ class Reserva {
         for (Habitacion habitacion : habitaciones) {
             if (habitacion.getIdHabitacion() == idHabitacion && habitacion.isDisponible()) {
                 habitacion.cambiarDisponibilidad(false);
-                System.out.println("udla.PvillotaMtorresDruizMcueva.hotel.Reserva creada con éxito. ID de la reserva: " + idReserva);
+                System.out.println("Reserva creada con éxito. ID de la reserva: " + idReserva);
                 return new Reserva(idReserva, habitacion, cliente);
             }
         }

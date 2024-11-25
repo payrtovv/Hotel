@@ -1,4 +1,4 @@
-package udla.PvillotaMtorresDruizMcueva.hotel;
+package udla.PvillotaMtorresDruizMcueva;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ public class Main {
         List<Reserva> reservas = new ArrayList<>();
 
         while (true) {
-            System.out.println("\n=== Sistema de Reservas de udla.PvillotaMtorresDruizMcueva.hotel.Hotel ===");
+            System.out.println("\n=== Sistema de Reservas de Hotel ===");
             System.out.println("1. Mostrar  habitaciones disponibles");
             System.out.println("2. Buscar habitación");
             System.out.println("3. Crear una reserva");
